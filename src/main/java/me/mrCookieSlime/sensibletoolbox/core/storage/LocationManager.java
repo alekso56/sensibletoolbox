@@ -322,7 +322,7 @@ public class LocationManager {
                 }
             }
         }
-        totalTicks++;
+        totalTicks = totalTicks+5;
         totalTime += System.nanoTime() - now;
 //		System.out.println("tickers took " + (System.nanoTime() - now) + " ns");
         if (System.currentTimeMillis() - lastSave > saveInterval) {

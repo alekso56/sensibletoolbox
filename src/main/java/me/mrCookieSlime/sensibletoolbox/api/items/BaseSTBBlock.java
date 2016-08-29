@@ -400,7 +400,7 @@ public abstract class BaseSTBBlock extends BaseSTBItem {
      * {@link #getTickRate()} returns a non-zero value.
      */
     public final void tick() {
-        ticksLived++;
+        ticksLived = ticksLived+5;
     }
 
     /**
